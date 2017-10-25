@@ -1,8 +1,12 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
   compileSdkVersion 26
   buildToolsVersion "26.0.2"
+  lintOptions {
+    abortOnError false
+  }
 
   defaultConfig {
     minSdkVersion 19
@@ -27,4 +31,13 @@ dependencies {
   })
   compile 'com.android.support:appcompat-v7:26.+'
   testCompile 'junit:junit:4.12'
+}
+//添加
+publish {
+  userOrg = 'batuer'//bintray.com用户名
+  groupId = 'com.gusi'//jcenter上的路径
+  artifactId = 'CircleShowTv'//项目名称
+  publishVersion = '1.0.0'//版本号
+  desc = 'CircleShowTv'//描述，不重要
+  website = 'https://github.com/batuer/CircleShowTextView'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }
