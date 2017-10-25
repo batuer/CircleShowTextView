@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">CircleShowTextView</string>
+  <string-array name="texts">
+    <item>Sunday</item>
+    <item>Monday</item>
+    <item>Tuesday</item>
+    <item>Wednesday</item>
+    <item>Thursday</item>
+    <item>Friday</item>
+    <item>Saturday</item>
+  </string-array>
+</resources>
