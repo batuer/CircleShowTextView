@@ -1,8 +1,6 @@
 # CircleShowTextView
-CircleShowTextView
-compile 'com.gusi:CircleShowTv:1.0.1'
-eg:
-<com.gusi.tv.CircleShowTextView
+# compile 'com.gusi:CircleShowTv:1.0.1'
+# eg:<com.gusi.tv.CircleShowTextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:gravity="center_horizontal"
