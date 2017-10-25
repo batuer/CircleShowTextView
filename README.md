@@ -9,4 +9,4 @@
       app:texts="@array/texts" />
 
 
-![image](https://github.com/batuer/CircleShowTextView/blob/master/CircleShowTv/image/2017-10-25-01mzcircletv.gif)
+![image](https://github.com/batuer/CircleShowTextView/blob/master/CircleShowTv/image/2017-10-25-11mzimg.gif)
