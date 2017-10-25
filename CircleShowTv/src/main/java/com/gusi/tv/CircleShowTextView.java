@@ -47,7 +47,8 @@ public class CircleShowTextView extends TextView {
     TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.CircleShowTextView);
     int standingTime = array.getInteger(R.styleable.CircleShowTextView_standing_time, 3000);
     mTexts = array.getTextArray(R.styleable.CircleShowTextView_texts);
-    int animTime = array.getInteger(R.styleable.CircleShowTextView_anim_time, 1000);
+    int animTime = array.getInteger(R.styleable.CircleShowTextView_anim_time,
+        getResources().getInteger(android.R.integer.config_longAnimTime));
     array.recycle();
 
     int relativeToSelf = Animation.RELATIVE_TO_SELF;

@@ -6,7 +6,6 @@ android {
   lintOptions {
     abortOnError false
   }
-
   defaultConfig {
     applicationId "com.gusi.circleshow"
     minSdkVersion 19
