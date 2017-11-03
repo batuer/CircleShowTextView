@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CircleShowTextView.iml" filepath="$PROJECT_DIR$/CircleShowTextView.iml" />
+      <module fileurl="file://D:\project\CircleShowTextView\CircleShowTextView.iml" filepath="D:\project\CircleShowTextView\CircleShowTextView.iml" />
       <module fileurl="file://$PROJECT_DIR$/CircleShowTv/CircleShowTv.iml" filepath="$PROJECT_DIR$/CircleShowTv/CircleShowTv.iml" />
+      <module fileurl="file://D:\project\CircleShowTextView\CircleShowTv\CircleShowTv.iml" filepath="D:\project\CircleShowTextView\CircleShowTv\CircleShowTv.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\project\CircleShowTextView\app\app.iml" filepath="D:\project\CircleShowTextView\app\app.iml" />
     </modules>
   </component>
 </project>
